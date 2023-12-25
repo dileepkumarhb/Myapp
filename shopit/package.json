@@ -1,0 +1,51 @@
+{
+  "name": "shopit",
+  "version": "1.0.0",
+  "description": "ecommerce app using mern",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
+    "seeder": "node backend/utils/seeder.js"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "redux",
+    "mongo"
+  ],
+  "author": "dileep",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.32.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.8",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "shortid": "^2.2.16",
+    "slugify": "^1.6.5",
+    "stripe": "^10.10.0",
+    "supertokens-node": "^16.6.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

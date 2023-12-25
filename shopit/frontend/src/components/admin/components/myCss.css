@@ -1,0 +1,8 @@
+.showErrorMsg{
+    color: red;
+    display: block;
+}
+
+.hideEroorMsg{
+    display: none;
+}
